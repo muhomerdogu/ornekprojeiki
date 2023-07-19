@@ -4,7 +4,7 @@ class Student{
   int grade=0;
   String status="Test";
   //student alanların tek tek veya direk Constructor içinde de set edebiliriz.
-  Student(String firstName, String lastName, int grade, String status)
+  Student(String firstName, String lastName, int grade)
   {
     this.firstName=firstName;
     this.lastName=lastName;
